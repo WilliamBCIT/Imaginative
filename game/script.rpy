@@ -5,7 +5,6 @@
 
 define e = Character("Eileen")
 
-
 # The game starts here.
 
 label start:
@@ -23,6 +22,8 @@ label start:
     show eileen happy
 
     # These display lines of dialogue.
+    
+    call areawarp
 
     "Hello, world."
 
@@ -33,3 +34,86 @@ label start:
     # This ends the game.
 
     return
+    
+label testmenu:
+    
+    scene black
+    
+    menu:
+        
+        "Area Selection":
+            call areawarp
+
+label areawarp:
+    
+    scene bg black
+    
+    menu:
+        
+        "University":
+            call unistart
+            
+        "City Plaza":
+            call plazastart
+            
+        "Downtown":
+            call dtstart
+            
+        "Office Tower":
+            call otstart
+            
+        "Cheerful Neighbourhood":
+            call cheerstart
+            
+        "Post Office":
+            call poststart
+        
+        "Community Centre":
+            call centrestart
+            
+        "Seaside Park":
+            call parkstart
+            
+        "Dark Woods":
+            call darkstart
+        
+        "Highway":
+            call highwaystart
+            
+        "Northern Mines":
+            call nmstart
+            
+        "Old Fort":
+            call fortstart
+            
+        "Winter Town":
+            call winterstart
+        
+        "Select an area to visit it."
+            
+            
+label unistart:
+    
+label plazastart:
+
+label dtstart:
+
+label otstart:
+    
+label cheerstart:
+    
+label poststart:
+    
+label centrestart:
+    
+label parkstart:
+    
+label darkstart:
+    
+label highwaystart:
+    
+label nmstart:
+    
+label fortstart:
+    
+label winterstart:
