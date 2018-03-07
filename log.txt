@@ -1,4 +1,4 @@
-Wed Mar 07 12:44:37 2018
+Wed Mar 07 14:57:47 2018
 Windows-8-6.2.9200
 Ren'Py 6.99.12.4.2187
  
@@ -6,35 +6,36 @@ Ren'Py 6.99.12.4.2187
 Bootstrap to the start of init.init took 0.24s
 Early init took 0.04s
 Loader init took 0.07s
-Loading error handling took 0.07s
-Loading script took 0.44s
+Loading error handling took 0.06s
+Loading script took 0.53s
 Loading persistent took 0.02s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.27s
+Running init code took 0.32s
 Loading analysis data took 0.05s
 Analyze and compile ATL took 0.01s
 Index archives took 0.00s
-Dump and make backups. took 0.17s
+Backing up script files to 'C:\\Users\\William\\AppData\\Roaming/RenPy/backups\\Imaginative':
+Dump and make backups. took 0.24s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 DPI scale factor: 1.000000
 Creating interface object took 0.06s
 Cleaning stores took 0.00s
-Init translation took 0.18s
+Init translation took 0.16s
 Build styles took 0.02s
-Load screen analysis took 0.05s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.06s
+Save screen analysis took 0.18s
 Prepare screens took 0.15s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Save bytecode. took 0.09s
 Running _start took 0.00s
 Performance test:
 Interface start took 0.02s
 
 primary display bounds: (0, 0, 1366, 768)
 Windowed mode.
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
+Screen sizes: virtual=(1280, 720) physical=(1028, 578) drawable=(1028, 578)
 Vendor: 'ATI Technologies Inc.'
 Renderer: 'AMD Radeon(TM) R4 Graphics'
 Version: '4.5.14009 Compatibility Profile Context 21.19.144.1281'
@@ -339,11 +340,11 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 4.58700013161s
+Total time until interface ready: 3.83999991417s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.042000 seconds.
-- Frame drawn at 0.089000 seconds.
-- Frame drawn at 0.121000 seconds.
-- Frame drawn at 0.155000 seconds.
-- 0.155000 seconds to render 5 frames.
+- Frame drawn at 0.052000 seconds.
+- Frame drawn at 0.098000 seconds.
+- Frame drawn at 0.128000 seconds.
+- Frame drawn at 0.164000 seconds.
+- 0.164000 seconds to render 5 frames.

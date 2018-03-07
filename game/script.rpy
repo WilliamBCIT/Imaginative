@@ -53,6 +53,9 @@ image creamSheep = "images/pipo-enemy031.png"
 image pinkSheep = "images/pipo-enemy031a.png"
 image brownBear = "images/pipo-enemy037.png"
 
+image makosprite = "images/makoidle.png"
+
+
 # The game starts here.
 
 label start:

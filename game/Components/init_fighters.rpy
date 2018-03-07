@@ -45,8 +45,8 @@ label init_fighters:
         MP = 200,
         ELEM = "Water",
         skill_set = [HigherAttack],
-        pic_card ="images/pipo-enemy031.png",            
-        pic_sprite =  "creamSheep", #"images/pipo-enemy031.png",   
+        pic_card ="images/makoidle.png",            
+        pic_sprite =  "makosprite", #"images/pipo-enemy031.png",   
         sprite_pos = [0.6, 0.5]
         )
     
