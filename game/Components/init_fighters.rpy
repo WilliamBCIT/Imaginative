@@ -35,7 +35,7 @@ label init_fighters:
         )
     
     $ creamSheep1  = fighter(
-        FTR = "Cream Sheep 1",
+        FTR = "Mako",
         ALIVE = True,
         ATK = 100,
         DEF = 10,
@@ -51,7 +51,7 @@ label init_fighters:
         )
     
     $ creamSheep2 = fighter(
-        FTR = "Cream Sheep 2",
+        FTR = "Sidney",
         ALIVE = True,
         ATK = 100,
         DEF = 10,
@@ -116,7 +116,7 @@ label init_fighters:
         )
     
     $ brownBear1 = fighter(
-        FTR = "Brown Bear 1",
+        FTR = "Alfie",
         ALIVE = True,
         ATK = 200,
         DEF = 560,
