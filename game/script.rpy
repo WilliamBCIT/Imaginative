@@ -3,7 +3,13 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
+define a = Character("Alfie")
+define s = Character("Sidney")
+define m = Character("Mako")
+
+define j = Character("Julie")
+define p = Character("Preston")
+define mo = Character("Monique")
 
 # The game starts here.
 
@@ -12,6 +18,10 @@ label start:
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
+
+    scene black
+    
+    mo "It's only {color=#0000ffff}5 more days{/color} before my group project for business class is due! What a complete nightmare!"
 
     scene bg room
 
@@ -23,7 +33,7 @@ label start:
 
     # These display lines of dialogue.
     
-    call areawarp
+    call testmenu
 
     "Hello, world."
 
@@ -43,10 +53,25 @@ label testmenu:
         
         "Area Selection":
             call areawarp
+            
+        "Cutscene Test":
+            return
+            
+        "Battle Test":
+            return
+        
+        "Test In-Game Menus":
+            return
+            
+        "Event Flags":
+            return
+            
+        "Player Statistics":
+            return
 
 label areawarp:
     
-    scene bg black
+    scene black
     
     menu:
         

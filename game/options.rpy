@@ -12,13 +12,14 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("Channel 14 News")
+define config.name = _("Imaginative?")
+define mm_root = "demotitle.png"
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
 ## this to False to hide the title.
 
-define gui.show_name = True
+define gui.show_name = False
 
 
 ## The version of the game.
@@ -146,6 +147,8 @@ define config.save_directory = "Channel14ews-1511719535"
 define config.window_icon = "gui/window_icon.png"
 
 
+
+
 ## Build configuration #########################################################
 ##
 ## This section controls how Ren'Py turns your project into distribution files.
@@ -199,3 +202,4 @@ init python:
 ## by a slash.
 
 # define build.itch_project = "renpytom/test-project"
+
