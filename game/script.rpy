@@ -11,6 +11,10 @@ define j = Character("Julie")
 define p = Character("Preston")
 define mo = Character("Monique")
 
+define lt = Character("Lost Toy")
+define cr = Character("The Critic")
+define nqa = Character("Not-Quite Alive")
+
 define x = Character("Xavier")
 define f = Character("Frida")
 define z = Character("Zack")
@@ -43,9 +47,11 @@ define k = Character("Karen")
 define mm = Character("Monique's Mother")
 
 
-
-
-
+image bg forest = "images/pipo-battlebg002.jpg"
+image blackSheep ="images/pipo-enemy031b.png"
+image creamSheep = "images/pipo-enemy031.png"
+image pinkSheep = "images/pipo-enemy031a.png"
+image brownBear = "images/pipo-enemy037.png"
 
 # The game starts here.
 
@@ -56,6 +62,8 @@ label start:
     # images directory to show it.
 
     scene black
+    
+    call test
     
     mo "It's only {color=#0000ffff}5 more days{/color} before my group project for business class is due! What a complete nightmare!"
 

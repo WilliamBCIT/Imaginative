@@ -37,7 +37,9 @@ define gui.about = _("")
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "Channel14ews"
+define build.name = "Imaginative"
+
+define config.layers = [ 'master', 'transient', 'battle_sprites', 'screens',  'battle_anims', 'overlay' ]
 
 
 ## Sounds and music ############################################################
