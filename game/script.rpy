@@ -45,6 +45,7 @@ define profc = Character("Professor Conrad")
 
 define k = Character("Karen")
 define mm = Character("Monique's Mother")
+define journal = Character(None, kind=nvl)
 
 
 image bg forest = "images/pipo-battlebg002.jpg"
@@ -66,6 +67,12 @@ label start:
 
     scene black
     
+    show screen time
+
+    mo "Wow!"
+    
+    call journal1
+
     call dpdemo
     
     call test
@@ -190,4 +197,23 @@ label nmstart:
     
 label fortstart:
     
-label winterstart:
+label journal1:
+
+journal "Today was a super-weird day! First off, something super embarrassing happened in English today..."
+journal "I had this total meltdown after this other girl made fun of LITERALLY EVERYTHING I did."
+journal "Well, the real problem is that she's one of my partners for this huge project I have to do for this class."
+journal "There's also this shy boy who's part of the group, but he basically had nothing to say."
+journal "So, that wasn't really helpful. I ended up leaving class early and just sitting in the library for a while."
+journal "I felt terrible! Not only did I totally make everyone else in the class think I was some kind of quiter, the project was falling apart!"
+journal "It makes me think I'm not getting anything out of this college program. I couldn't even start on my Chem lab prep which was due tomorrow..."
+journal "It wasn't all bad, though."
+journal "For some reason, the mean girl showed up with that shy boy to apologize for everything when I walking to the bus stop."
+journal "It wasn't much, be it was a start. I wonder why she decided to apologize, though?"
+journal "Now that I think about it more, her name was Julie. The shy boy was Preston."
+journal "Actually, I'll try and get the lab for class tomorrow done now. I feel a little better about things..."
+journal "-Monique"
+
+screen time:
+    frame:
+         vbox:
+             text "9PM\nDay 1" yalign 0.0 xalign 0.5 xsize 0.2 ysize 0.2
