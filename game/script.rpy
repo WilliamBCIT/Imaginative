@@ -66,6 +66,8 @@ label start:
 
     scene black
     
+    call dpdemo
+    
     call test
     
     mo "It's only {color=#0000ffff}5 more days{/color} before my group project for business class is due! What a complete nightmare!"

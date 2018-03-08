@@ -1,90 +1,102 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <'Image' u'images/pipo-enemy037.png'>:
-  File "game/script.rpy", line 66, in script call
-    call test
-  File "game/Sheepstorm Engine/test_battle.rpy", line 34, in script
-    $ victorBattle = executeBattle(allies, enemies, orderInitiators)
-  File "game/Sheepstorm Engine/test_battle.rpy", line 34, in <module>
-    $ victorBattle = executeBattle(allies, enemies, orderInitiators)
-  File "game/Sheepstorm Engine/handler-battle.rpy", line 13, in executeBattle
-    renpy.with_statement(dissolve, always=False)
-IOError: Couldn't find file 'images/pipo-enemy037.png'.
+While running game code:
+  File "game/script.rpy", line 69, in script call
+    call dpdemo
+  File "game/dse-schedule.rpy", line 95, in script
+    call screen day_planner(["Monique", "Preston", "Julie"])
+  File "renpy/common/000statements.rpy", line 471, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "game/dse-day_planner.rpy", line 50, in execute
+    screen day_planner(periods):
+  File "game/dse-day_planner.rpy", line 50, in execute
+    screen day_planner(periods):
+  File "game/dse-day_planner.rpy", line 53, in execute
+    frame:
+  File "game/dse-day_planner.rpy", line 56, in execute
+    use display_planner(periods)
+  File "game/dse-day_planner.rpy", line 58, in execute
+    screen display_planner(periods):
+  File "game/dse-day_planner.rpy", line 58, in execute
+    screen display_planner(periods):
+  File "game/dse-day_planner.rpy", line 59, in execute
+    frame:
+  File "game/dse-day_planner.rpy", line 61, in execute
+    vbox:
+  File "game/dse-day_planner.rpy", line 63, in execute
+    hbox:
+  File "game/dse-day_planner.rpy", line 65, in execute
+    for p in periods:
+  File "game/dse-day_planner.rpy", line 66, in execute
+    vbox:
+  File "game/dse-day_planner.rpy", line 68, in execute
+    if p not in __periods:
+  File "game/dse-day_planner.rpy", line 69, in execute
+    $ raise Exception("Period %r was never defined." % p)
+  File "game/dse-day_planner.rpy", line 69, in <module>
+    $ raise Exception("Period %r was never defined." % p)
+Exception: Period u'Monique' was never defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 66, in script call
-    call test
-  File "game/Sheepstorm Engine/test_battle.rpy", line 34, in script
-    $ victorBattle = executeBattle(allies, enemies, orderInitiators)
-  File "C:\Users\William\Desktop\BCIT Sept 2017 - Feb 2018\renpy\renpy-6.99.12.4-sdk\renpy\ast.py", line 814, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\William\Desktop\BCIT Sept 2017 - Feb 2018\renpy\renpy-6.99.12.4-sdk\renpy\python.py", line 1719, in py_exec_bytecode
-    exec bytecode in globals, locals
-  File "game/Sheepstorm Engine/test_battle.rpy", line 34, in <module>
-    $ victorBattle = executeBattle(allies, enemies, orderInitiators)
-  File "game/Sheepstorm Engine/handler-battle.rpy", line 13, in executeBattle
-    renpy.with_statement(dissolve, always=False)
-  File "C:\Users\William\Desktop\BCIT Sept 2017 - Feb 2018\renpy\renpy-6.99.12.4-sdk\renpy\exports.py", line 1381, in with_statement
-    return renpy.game.interface.do_with(trans, paired, clear=clear)
-  File "C:\Users\William\Desktop\BCIT Sept 2017 - Feb 2018\renpy\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2096, in do_with
-    clear=clear)
-  File "C:\Users\William\Desktop\BCIT Sept 2017 - Feb 2018\renpy\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2526, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
-  File "C:\Users\William\Desktop\BCIT Sept 2017 - Feb 2018\renpy\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2883, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "C:\Users\William\Desktop\BCIT Sept 2017 - Feb 2018\renpy\renpy-6.99.12.4-sdk\renpy\display\core.py", line 1955, in draw_screen
-    renpy.config.screen_height,
-  File "renpy/display/render.pyx", line 427, in renpy.display.render.render_screen (gen\renpy.display.render.c:6806)
-    rv = render(root, width, height, 0, 0)
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2978)
-    rv = d.render(widtho, heighto, st, at)
-  File "C:\Users\William\Desktop\BCIT Sept 2017 - Feb 2018\renpy\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 693, in render
-    surf = render(child, width, height, cst, cat)
-  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3440)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2978)
-    rv = d.render(widtho, heighto, st, at)
-  File "C:\Users\William\Desktop\BCIT Sept 2017 - Feb 2018\renpy\renpy-6.99.12.4-sdk\renpy\display\transition.py", line 361, in render
-    top = render(self.new_widget, width, height, st, at)
-  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3440)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2978)
-    rv = d.render(widtho, heighto, st, at)
-  File "C:\Users\William\Desktop\BCIT Sept 2017 - Feb 2018\renpy\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 693, in render
-    surf = render(child, width, height, cst, cat)
-  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3440)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2978)
-    rv = d.render(widtho, heighto, st, at)
-  File "C:\Users\William\Desktop\BCIT Sept 2017 - Feb 2018\renpy\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 693, in render
-    surf = render(child, width, height, cst, cat)
-  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3440)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2978)
-    rv = d.render(widtho, heighto, st, at)
-  File "renpy/display/accelerator.pyx", line 108, in renpy.display.accelerator.transform_render (gen\renpy.display.accelerator.c:2027)
-    cr = render(child, widtho, heighto, st - self.child_st_base, at)
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2978)
-    rv = d.render(widtho, heighto, st, at)
-  File "C:\Users\William\Desktop\BCIT Sept 2017 - Feb 2018\renpy\renpy-6.99.12.4-sdk\renpy\display\image.py", line 387, in render
-    return wrap_render(self.target, width, height, st, at)
-  File "C:\Users\William\Desktop\BCIT Sept 2017 - Feb 2018\renpy\renpy-6.99.12.4-sdk\renpy\display\image.py", line 208, in wrap_render
-    rend = render(child, w, h, st, at)
-  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3440)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2978)
-    rv = d.render(widtho, heighto, st, at)
-  File "C:\Users\William\Desktop\BCIT Sept 2017 - Feb 2018\renpy\renpy-6.99.12.4-sdk\renpy\display\im.py", line 473, in render
-    im = cache.get(self)
-  File "C:\Users\William\Desktop\BCIT Sept 2017 - Feb 2018\renpy\renpy-6.99.12.4-sdk\renpy\display\im.py", line 200, in get
-    surf = image.load()
-  File "C:\Users\William\Desktop\BCIT Sept 2017 - Feb 2018\renpy\renpy-6.99.12.4-sdk\renpy\display\im.py", line 524, in load
-    surf = renpy.display.pgrender.load_image(renpy.loader.load(self.filename), self.filename)
-  File "C:\Users\William\Desktop\BCIT Sept 2017 - Feb 2018\renpy\renpy-6.99.12.4-sdk\renpy\loader.py", line 543, in load
-    raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'images/pipo-enemy037.png'.
+  File "game/script.rpy", line 69, in script call
+    call dpdemo
+  File "game/dse-schedule.rpy", line 95, in script
+    call screen day_planner(["Monique", "Preston", "Julie"])
+  File "C:\Users\William\Desktop\BCIT Sept 2017 - Feb 2018\renpy\renpy-6.99.12.4-sdk\renpy\ast.py", line 1706, in execute
+    self.call("execute")
+  File "C:\Users\William\Desktop\BCIT Sept 2017 - Feb 2018\renpy\renpy-6.99.12.4-sdk\renpy\ast.py", line 1724, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "C:\Users\William\Desktop\BCIT Sept 2017 - Feb 2018\renpy\renpy-6.99.12.4-sdk\renpy\statements.py", line 145, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 471, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "C:\Users\William\Desktop\BCIT Sept 2017 - Feb 2018\renpy\renpy-6.99.12.4-sdk\renpy\exports.py", line 2526, in call_screen
+    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
+  File "C:\Users\William\Desktop\BCIT Sept 2017 - Feb 2018\renpy\renpy-6.99.12.4-sdk\renpy\ui.py", line 285, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\William\Desktop\BCIT Sept 2017 - Feb 2018\renpy\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2538, in interact
+    scene_lists.replace_transient()
+  File "C:\Users\William\Desktop\BCIT Sept 2017 - Feb 2018\renpy\renpy-6.99.12.4-sdk\renpy\display\core.py", line 822, in replace_transient
+    self.remove(layer, tag)
+  File "C:\Users\William\Desktop\BCIT Sept 2017 - Feb 2018\renpy\renpy-6.99.12.4-sdk\renpy\display\core.py", line 1107, in remove
+    self.hide_or_replace(layer, remove_index, "hide")
+  File "C:\Users\William\Desktop\BCIT Sept 2017 - Feb 2018\renpy\renpy-6.99.12.4-sdk\renpy\display\core.py", line 1031, in hide_or_replace
+    d = oldsle.displayable._hide(now - st, now - at, prefix)
+  File "C:\Users\William\Desktop\BCIT Sept 2017 - Feb 2018\renpy\renpy-6.99.12.4-sdk\renpy\display\screen.py", line 443, in _hide
+    self.update()
+  File "C:\Users\William\Desktop\BCIT Sept 2017 - Feb 2018\renpy\renpy-6.99.12.4-sdk\renpy\display\screen.py", line 578, in update
+    self.screen.function(**self.scope)
+  File "game/dse-day_planner.rpy", line 50, in execute
+    screen day_planner(periods):
+  File "game/dse-day_planner.rpy", line 50, in execute
+    screen day_planner(periods):
+  File "game/dse-day_planner.rpy", line 53, in execute
+    frame:
+  File "game/dse-day_planner.rpy", line 56, in execute
+    use display_planner(periods)
+  File "game/dse-day_planner.rpy", line 58, in execute
+    screen display_planner(periods):
+  File "game/dse-day_planner.rpy", line 58, in execute
+    screen display_planner(periods):
+  File "game/dse-day_planner.rpy", line 59, in execute
+    frame:
+  File "game/dse-day_planner.rpy", line 61, in execute
+    vbox:
+  File "game/dse-day_planner.rpy", line 63, in execute
+    hbox:
+  File "game/dse-day_planner.rpy", line 65, in execute
+    for p in periods:
+  File "game/dse-day_planner.rpy", line 66, in execute
+    vbox:
+  File "game/dse-day_planner.rpy", line 68, in execute
+    if p not in __periods:
+  File "game/dse-day_planner.rpy", line 69, in execute
+    $ raise Exception("Period %r was never defined." % p)
+  File "game/dse-day_planner.rpy", line 69, in <module>
+    $ raise Exception("Period %r was never defined." % p)
+Exception: Period u'Monique' was never defined.
 
 Windows-8-6.2.9200
 Ren'Py 6.99.12.4.2187
