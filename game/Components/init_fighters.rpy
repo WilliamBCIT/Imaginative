@@ -130,3 +130,701 @@ label init_fighters:
         pic_sprite = "brownBear", #"images/pipo-enemy037.png",    
         sprite_pos = [0.1, 0.5]
         )
+
+		
+		$ MasterPlan
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ VideoGame
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ HurriedDeadline
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ BigPresentation
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ MegaExam
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ TemptingNotification
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ GossipGlobs
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ DrDoubts
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ GuiltTrip
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ ADistraction
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ Overexcitement
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ Boredom
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ BigNews
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ PuzzlingPattern
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ CreatorsShadow
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ WeatherWoes
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ ReturnedCharacter
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ BasicBrainstorm
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ SadStatue
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ GreedyGetting
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ Darkness
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ ABigMistake
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ BrokenMirror
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ ThePerfectCharacter
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ RuinedRoles
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ PettyJealousAttack
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ MysteryThought
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ TheHappyPolice
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ FearofFear
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ LostJoys
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ InfiniteLoop
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ MrDisappointment
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ OneStepTooFar
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ HiddenTruths
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ ThoughtMismatch
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ Responsibility
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ PayingAttention
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ WeightyExpectations
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ TheUnknown
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ Quiet
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )
+
+$ OminousRock
+= fighter(
+        FTR = "Pink Sheep 1",
+        ALIVE = True,
+        ATK = 100,
+        DEF = 60,
+        SPD = 840,
+        MG = 10,
+        HP = 420,
+        MP = 200,
+        ELEM = "Water",
+        skill_set = [HigherAttack],
+        pic_card = "images/pipo-enemy031a.png",          
+        pic_sprite = "pinkSheep", #"images/pipo-enemy031a.png",    
+        sprite_pos = [0.9, 0.5]
+        )	
